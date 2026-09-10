@@ -9,7 +9,31 @@ var SELECTIONS_DATA = {
   "powder-room-1": [
     {
       "name": "Floor Tile",
-      "description": "Vanilla Royale 1\" x 4\" Chevron Marble",
+      "description": "Vanilla Royale 1\" x 4\" Chevron Marble \u2014 installed as herringbone mosaic",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "Pearl",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -19,7 +43,23 @@ var SELECTIONS_DATA = {
   "powder-room-2": [
     {
       "name": "Floor Tile",
-      "description": "Fusion Smoke Lotus Tile",
+      "description": "Fusion Smoke Lotus Tile \u2014 install aligned to pattern as shown (layout reference image provided, not yet added to site)",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -103,7 +143,7 @@ var SELECTIONS_DATA = {
   "bathroom-3": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "5\" Bianco Oro Hex \u2014 installed as mosaic",
       "brand": "",
       "sku": "",
       "price": "",
@@ -111,7 +151,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "5\" Bianco Oro Hex \u2014 installed as mosaic",
       "brand": "",
       "sku": "",
       "price": "",
@@ -119,7 +159,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "Brunei Blanco 13x39 (wall tile + behind vanity) \u2014 stacked straight, horizontal",
       "brand": "",
       "sku": "",
       "price": "",
@@ -135,7 +175,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Grout Color",
-      "description": "",
+      "description": "Walls: TEC \u2014 Pearl \u00b7 Floor: TEC \u2014 Bright White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -143,7 +183,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -151,7 +191,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -167,7 +207,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Brushed Nickel",
       "brand": "",
       "sku": "",
       "price": "",
@@ -177,7 +217,7 @@ var SELECTIONS_DATA = {
   "bathroom-4": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "Cardosia 12x24 Matte \u2014 installed 50/0 offset",
       "brand": "",
       "sku": "",
       "price": "",
@@ -185,7 +225,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "Cardosia 12x24 Matte \u2014 installed as mosaic (inferred: same tile family as floor, not explicitly stated \u2014 please confirm)",
       "brand": "",
       "sku": "",
       "price": "",
@@ -193,7 +233,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "Nix - Murus 3x11 Phantasy Beige Matte (wall tile + behind mirror) \u2014 stacked vertically (if edges don't align: 50/0 vertical stacked)",
       "brand": "",
       "sku": "",
       "price": "",
@@ -217,7 +257,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -225,7 +265,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -251,7 +291,7 @@ var SELECTIONS_DATA = {
   "bathroom-5": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "Kursaal 12x24 \u2014 installed 50/50",
       "brand": "",
       "sku": "",
       "price": "",
@@ -259,7 +299,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "Kursaal 12x24 \u2014 installed 50/50",
       "brand": "",
       "sku": "",
       "price": "",
@@ -267,7 +307,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "Dorian Honey 13\" x 39\" \u2014 installed vertical stacked",
       "brand": "",
       "sku": "",
       "price": "",
@@ -283,7 +323,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Grout Color",
-      "description": "",
+      "description": "TEC \u2014 Birch",
       "brand": "",
       "sku": "",
       "price": "",
@@ -291,7 +331,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -299,7 +339,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -315,7 +355,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Black",
       "brand": "",
       "sku": "",
       "price": "",
@@ -325,7 +365,7 @@ var SELECTIONS_DATA = {
   "bathroom-6": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "Blue & White Vein 12x24 \u2014 installed 50/50",
       "brand": "",
       "sku": "",
       "price": "",
@@ -333,7 +373,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "Blue River Rock \u2014 installed as mosaic",
       "brand": "",
       "sku": "",
       "price": "",
@@ -341,7 +381,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "Herringbone Pattern SAN1174 (shower walls + behind toilet) \u2014 herringbone pattern",
       "brand": "",
       "sku": "",
       "price": "",
@@ -357,7 +397,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Grout Color",
-      "description": "",
+      "description": "Bright White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -365,7 +405,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -373,7 +413,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -389,7 +429,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Chrome",
       "brand": "",
       "sku": "",
       "price": "",
@@ -399,7 +439,7 @@ var SELECTIONS_DATA = {
   "bathroom-7": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "Fioretti Glossy Beige \u2014 installed as mosaic",
       "brand": "",
       "sku": "",
       "price": "",
@@ -407,7 +447,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "5x5 Fado White \u2014 installed stacked straight",
       "brand": "",
       "sku": "",
       "price": "",
@@ -415,7 +455,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Grout",
-      "description": "",
+      "description": "Walls: Bright White \u00b7 Floor: Pearl",
       "brand": "",
       "sku": "",
       "price": "",
@@ -439,7 +479,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Brushed Nickel",
       "brand": "",
       "sku": "",
       "price": "",
@@ -465,7 +505,7 @@ var SELECTIONS_DATA = {
   "bathroom-8": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "Haute Monde 12x24 \u2014 installed 50/50",
       "brand": "",
       "sku": "",
       "price": "",
@@ -473,7 +513,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "RTD-551 Haute Monde 2x2 \u2014 installed as mosaic",
       "brand": "",
       "sku": "",
       "price": "",
@@ -481,7 +521,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "RTD-551 Haute Monde 2x2 \u2014 installed stacked straight (for pattern alignment)",
       "brand": "",
       "sku": "",
       "price": "",
@@ -505,7 +545,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -513,7 +553,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -529,7 +569,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Black",
       "brand": "",
       "sku": "",
       "price": "",
