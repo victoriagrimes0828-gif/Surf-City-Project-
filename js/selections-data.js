@@ -29,7 +29,7 @@ var SELECTIONS_DATA = {
   "bathroom-2": [
     {
       "name": "Floor Tile",
-      "description": "",
+      "description": "B-Natural Kaolin 12x24",
       "brand": "",
       "sku": "",
       "price": "",
@@ -37,7 +37,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Shower Pan",
-      "description": "",
+      "description": "B-Natural Kaolin 12x24",
       "brand": "",
       "sku": "",
       "price": "",
@@ -45,7 +45,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Wall Tile",
-      "description": "",
+      "description": "Zalaga Grigis - Glossy 5x5 (shower walls & wall behind vanity)",
       "brand": "",
       "sku": "",
       "price": "",
@@ -69,7 +69,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Saddle",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -77,7 +77,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Sill",
-      "description": "",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -86,14 +86,14 @@ var SELECTIONS_DATA = {
     {
       "name": "Faucet",
       "description": "",
-      "brand": "",
-      "sku": "",
+      "brand": "Rohl",
+      "sku": "Amahle",
       "price": "",
       "image": ""
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Brass",
       "brand": "",
       "sku": "",
       "price": "",
