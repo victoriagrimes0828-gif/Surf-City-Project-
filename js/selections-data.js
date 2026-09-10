@@ -131,11 +131,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Faucet",
-      "description": "Rohl Amahle",
+      "description": "Rohl Amahle \u2014 brushed gold",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-2/faucet.jpg"
     },
     {
       "name": "Schluter",
@@ -209,7 +209,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-3/faucet.jpg"
     },
     {
       "name": "Schluter",
@@ -283,7 +283,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-4/faucet.jpg"
     },
     {
       "name": "Schluter",
