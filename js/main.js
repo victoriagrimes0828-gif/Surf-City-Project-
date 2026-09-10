@@ -65,10 +65,16 @@ function itemsForSummary(key, data, categories) {
   return data[key] || [];
 }
 
+// These selection types never get a product photo (grout, saddles/sills,
+// Schluter profiles are colors/finishes, not photographable products), so
+// skip the image/placeholder box entirely for them.
+var NO_PHOTO_NAMES = ['grout', 'grout color', 'saddle', 'sill', 'saddles & sills', 'schluter', 'schluter profile'];
+
 function renderSelectionCard(item) {
-  var photo = item.image
+  var skipPhoto = NO_PHOTO_NAMES.indexOf(String(item.name).toLowerCase()) !== -1;
+  var photo = skipPhoto ? '' : (item.image
     ? '<img class="selection-photo" src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.name) + '">'
-    : '<div class="ph-image ph-image--wide"><span class="ph-label">' + escapeHtml(item.name) + '<br>(replace with your image)</span></div>';
+    : '<div class="ph-image ph-image--wide"><span class="ph-label">' + escapeHtml(item.name) + '<br>(replace with your image)</span></div>');
 
   var metaParts = [];
   if (item.brand) metaParts.push(item.brand);
