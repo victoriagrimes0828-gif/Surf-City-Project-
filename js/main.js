@@ -1,5 +1,5 @@
 // Applies SITE_CONFIG text/links and renders SELECTIONS_DATA into the page,
-// then wires up the mobile nav toggle and the "Selections" dropdown.
+// then wires up the mobile nav toggle and the "Rooms" dropdown.
 document.addEventListener('DOMContentLoaded', function () {
   applySiteConfig();
   renderSelections();
@@ -46,7 +46,7 @@ function renderSelections() {
 
   document.querySelectorAll('[data-selections-category]').forEach(function (el) {
     var items = data[el.getAttribute('data-selections-category')] || [];
-    el.innerHTML = items.length ? items.map(renderSelectionCard).join('') : '<p class="selection-empty">Selections for this category will be added soon.</p>';
+    el.innerHTML = items.length ? items.map(renderSelectionCard).join('') : '<p class="selection-empty">Selections for this room will be added soon.</p>';
   });
 
   document.querySelectorAll('[data-summary-count]').forEach(function (el) {
