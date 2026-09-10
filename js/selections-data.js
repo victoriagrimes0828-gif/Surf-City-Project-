@@ -7,18 +7,608 @@
 // ]
 var SELECTIONS_DATA = {
   "powder-room-1": [
-    { "name": "Floor Tile", "description": "Vanilla Royale 1\" x 4\" Chevron Marble", "brand": "", "sku": "", "price": "", "image": "" }
+    {
+      "name": "Floor Tile",
+      "description": "Vanilla Royale 1\" x 4\" Chevron Marble",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
   ],
   "powder-room-2": [
-    { "name": "Floor Tile", "description": "Fusion Smoke Lotus Tile", "brand": "", "sku": "", "price": "", "image": "" }
+    {
+      "name": "Floor Tile",
+      "description": "Fusion Smoke Lotus Tile",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
   ],
-  "bathroom-2": [],
-  "bathroom-3": [],
-  "bathroom-4": [],
-  "bathroom-5": [],
-  "bathroom-6": [],
-  "bathroom-7": [],
-  "bathroom-8": [],
-  "master-bathroom": [],
+  "bathroom-2": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-3": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-4": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-5": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-6": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-7": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Electrical Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "bathroom-8": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
+  "master-bathroom": [
+    {
+      "name": "Floor Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Shower Pan",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Wall Tile",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Light Fixture",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Grout Color",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    }
+  ],
   "laundry-room": []
 };
