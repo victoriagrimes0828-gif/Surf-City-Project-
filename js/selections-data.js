@@ -237,7 +237,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Stone Hearth 984",
       "brand": "",
       "sku": "",
       "price": "",
