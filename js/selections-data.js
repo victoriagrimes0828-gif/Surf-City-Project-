@@ -233,7 +233,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-3/pendants.jpg"
     },
     {
       "name": "Vanity Finish",
