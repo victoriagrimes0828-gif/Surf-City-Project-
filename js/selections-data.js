@@ -101,7 +101,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/powder-room-2/vanity-light.jpg"
     }
   ],
   "bathroom-2": [
