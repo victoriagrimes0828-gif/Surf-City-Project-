@@ -45,8 +45,17 @@ function renderSelections() {
   var categories = Object.keys(data);
 
   document.querySelectorAll('[data-selections-category]').forEach(function (el) {
-    var items = data[el.getAttribute('data-selections-category')] || [];
+    var room = el.getAttribute('data-selections-category');
+    var items = (data[room] || []).filter(function (item) { return !isFinishItem(item); });
     el.innerHTML = items.length ? items.map(renderSelectionCard).join('') : '<p class="selection-empty">Selections for this room will be added soon.</p>';
+  });
+
+  document.querySelectorAll('[data-finishes-category]').forEach(function (el) {
+    var room = el.getAttribute('data-finishes-category');
+    var items = (data[room] || []).filter(isFinishItem);
+    el.innerHTML = items.map(renderFinishRow).join('');
+    var wrap = el.closest('[data-finishes-wrap]');
+    if (wrap) wrap.hidden = !items.length;
   });
 
   document.querySelectorAll('[data-summary-count]').forEach(function (el) {
@@ -65,13 +74,17 @@ function itemsForSummary(key, data, categories) {
   return data[key] || [];
 }
 
-// These selection types never get a product photo (grout, saddles/sills,
-// Schluter profiles are colors/finishes, not photographable products), so
-// skip the image/placeholder box entirely for them.
-var NO_PHOTO_NAMES = ['grout', 'grout color', 'saddle', 'sill', 'saddles & sills', 'schluter', 'schluter profile'];
+// Grout, Saddle, Sill, and Schluter are colors/finishes, not photographable
+// products - no image slot, and (where a [data-finishes-category] element
+// exists) grouped into one compact list instead of a full card each.
+var FINISH_NAMES = ['grout', 'grout color', 'saddle', 'sill', 'saddles & sills', 'schluter', 'schluter profile'];
+
+function isFinishItem(item) {
+  return FINISH_NAMES.indexOf(String(item.name).toLowerCase()) !== -1;
+}
 
 function renderSelectionCard(item) {
-  var skipPhoto = NO_PHOTO_NAMES.indexOf(String(item.name).toLowerCase()) !== -1;
+  var skipPhoto = isFinishItem(item);
   var photo = skipPhoto ? '' : (item.image
     ? '<img class="selection-photo" src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.name) + '">'
     : '<div class="ph-image ph-image--wide"><span class="ph-label">' + escapeHtml(item.name) + '<br>(replace with your image)</span></div>');
@@ -88,6 +101,12 @@ function renderSelectionCard(item) {
     '<div class="card-body"><h3>' + escapeHtml(item.name) + '</h3>' +
     (item.description ? '<p>' + escapeHtml(item.description) + '</p>' : '') +
     meta + price + '</div></div>';
+}
+
+function renderFinishRow(item) {
+  var value = item.description || (item.brand ? [item.brand, item.sku].filter(Boolean).join(' · ') : '') || '—';
+  return '<div class="finish-row"><span class="finish-label">' + escapeHtml(item.name) + '</span>' +
+    '<span class="finish-value">' + escapeHtml(value) + '</span></div>';
 }
 
 function formatPrice(num) {

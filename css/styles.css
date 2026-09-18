@@ -323,6 +323,53 @@ a.card.selection-summary-card:hover h3 { color: var(--taupe-dark); }
 .selection-price { font-family: var(--font-heading); font-size: 1.15rem; color: var(--charcoal); margin: auto 0 0; flex: none; font-variant-numeric: tabular-nums; }
 .selection-empty { grid-column: 1 / -1; text-align: center; color: var(--ink); padding: 2rem 0; }
 
+/* ---------- Finishes list (Grout, Saddle, Sill, Schluter) ----------
+   Compact rows instead of full cards, since these are colors/finishes
+   with no photo - a whole card each would waste a lot of space. */
+.finishes-heading {
+  margin: 2.5rem 0 0;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  color: var(--taupe-dark);
+}
+
+.finishes-list {
+  margin-top: 0.75rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.finish-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.85rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.finish-row:last-child { border-bottom: none; }
+
+.finish-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--taupe-dark);
+  flex: none;
+}
+
+.finish-value { color: var(--charcoal); text-align: right; }
+
+@media (max-width: 480px) {
+  .finish-row { flex-direction: column; gap: 0.2rem; }
+  .finish-value { text-align: left; }
+}
+
 /* ---------- CTA band ---------- */
 .cta-band { background: var(--charcoal); color: var(--cream); text-align: center; padding: 4rem 0; }
 .cta-band h2 { color: var(--white); }

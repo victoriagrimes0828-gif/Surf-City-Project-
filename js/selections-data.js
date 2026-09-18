@@ -228,6 +228,14 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-3/faucet.jpg"
     },
     {
+      "name": "Pendants",
+      "description": "Astor Pendant, Satin Nickel",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Vanity Finish",
       "description": "Stone Hearth 984",
       "brand": "",
