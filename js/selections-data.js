@@ -667,7 +667,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/master-bathroom/vanity-finish.jpg"
     },
     {
       "name": "Schluter",
