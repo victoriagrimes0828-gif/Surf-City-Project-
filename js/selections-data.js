@@ -22,22 +22,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Vanity Finish",
       "description": "Light oak wood stain",
       "brand": "",
@@ -52,6 +36,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/powder-room-1/vanity-light.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     }
   ],
   "powder-room-2": [
@@ -72,8 +72,8 @@ var SELECTIONS_DATA = {
       "image": "images/selections/powder-room-2/layout-reference.jpg"
     },
     {
-      "name": "Saddle",
-      "description": "Pana White",
+      "name": "Vanity Finish",
+      "description": "",
       "brand": "",
       "sku": "",
       "price": "",
@@ -88,8 +88,8 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Vanity Finish",
-      "description": "",
+      "name": "Saddle",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -138,8 +138,16 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Pana White",
+      "name": "Faucet",
+      "description": "Rohl Amahle \u2014 brushed gold",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/bathroom-2/faucet.jpg"
+    },
+    {
+      "name": "Vanity Finish",
+      "description": "",
       "brand": "",
       "sku": "",
       "price": "",
@@ -154,16 +162,8 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Faucet",
-      "description": "Rohl Amahle \u2014 brushed gold",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": "images/selections/bathroom-2/faucet.jpg"
-    },
-    {
-      "name": "Vanity Finish",
-      "description": "",
+      "name": "Saddle",
+      "description": "Pana White",
       "brand": "",
       "sku": "",
       "price": "",
@@ -220,22 +220,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -250,6 +234,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/bathroom-3/vanity-finish.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -302,22 +302,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Pana White",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Pana White",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -332,6 +316,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/bathroom-4/vanity-finish.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -384,22 +384,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -418,6 +402,22 @@ var SELECTIONS_DATA = {
     {
       "name": "Vanity Finish",
       "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
       "brand": "",
       "sku": "",
       "price": "",
@@ -474,22 +474,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -504,6 +488,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/bathroom-6/vanity-finish.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -556,22 +556,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Pana White",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Pana White",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -586,6 +570,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/bathroom-8/vanity-finish.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -638,22 +638,6 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
-      "name": "Saddle",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
-      "name": "Sill",
-      "description": "Thassos",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Faucet",
       "description": "",
       "brand": "",
@@ -668,6 +652,22 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/master-bathroom/vanity-finish.jpg"
+    },
+    {
+      "name": "Sill",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Saddle",
+      "description": "Thassos",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -728,14 +728,6 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-7/vanity-finish.jpg"
     },
     {
-      "name": "Schluter",
-      "description": "Brushed Nickel",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Sill",
       "description": "",
       "brand": "",
@@ -746,6 +738,14 @@ var SELECTIONS_DATA = {
     {
       "name": "Saddle",
       "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Schluter",
+      "description": "Brushed Nickel",
       "brand": "",
       "sku": "",
       "price": "",
