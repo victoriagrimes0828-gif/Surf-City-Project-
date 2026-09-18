@@ -94,14 +94,6 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": ""
-    },
-    {
-      "name": "Pendants",
-      "description": "Qty 2 \u2014 Mendota 1 Light Pendant",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": "images/selections/powder-room-2/pendants.jpg"
     }
   ],
   "bathroom-2": [
