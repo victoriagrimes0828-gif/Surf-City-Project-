@@ -122,14 +122,6 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-2/wall-tile.jpg"
     },
     {
-      "name": "Light Fixture",
-      "description": "",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Sconces",
       "description": "Qty 2 \u2014 Bolivar Sconce",
       "brand": "",
