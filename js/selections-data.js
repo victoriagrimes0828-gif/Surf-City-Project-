@@ -307,7 +307,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-4/sconces.jpg"
     },
     {
       "name": "Grout Color",
