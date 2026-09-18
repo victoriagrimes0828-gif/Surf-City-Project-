@@ -491,11 +491,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "Brittania Blue 1623",
+      "description": "Britannia Blue 1623",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-6/vanity-finish.jpg"
     },
     {
       "name": "Schluter",
