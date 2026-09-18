@@ -130,6 +130,14 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-2/sconces.jpg"
     },
     {
+      "name": "Chandelier",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Grout Color",
       "description": "TEC \u2014 Birch",
       "brand": "",
