@@ -306,7 +306,10 @@ a.card.selection-summary-card:hover h3 { color: var(--taupe-dark); }
 .stat .label { text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--ink); }
 
 /* ---------- Selection cards ---------- */
-.selection-photo { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+/* contain (not cover) + a fixed height so the whole product photo is always
+   visible, whatever its aspect ratio (portrait faucets, square tile swatches,
+   wide tile strips) - a light background fills any letterboxed space. */
+.selection-photo { width: 100%; height: 240px; object-fit: contain; background: var(--cream-deep); display: block; }
 
 .selection-meta {
   font-size: 0.78rem;
