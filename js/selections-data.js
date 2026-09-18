@@ -491,7 +491,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Faucet",
-      "description": "",
+      "description": "Kohler Venza, Chrome",
       "brand": "",
       "sku": "",
       "price": "",
