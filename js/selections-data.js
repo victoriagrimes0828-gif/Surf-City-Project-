@@ -36,6 +36,14 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": ""
+    },
+    {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     }
   ],
   "powder-room-2": [
@@ -66,6 +74,14 @@ var SELECTIONS_DATA = {
     {
       "name": "Sill",
       "description": "Pana White",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Vanity Finish",
+      "description": "",
       "brand": "",
       "sku": "",
       "price": "",
@@ -136,6 +152,14 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/bathroom-2/faucet.jpg"
+    },
+    {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     },
     {
       "name": "Schluter",
@@ -212,6 +236,14 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-3/faucet.jpg"
     },
     {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Schluter",
       "description": "Brushed Nickel",
       "brand": "",
@@ -286,6 +318,14 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-4/faucet.jpg"
     },
     {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Schluter",
       "description": "",
       "brand": "",
@@ -353,6 +393,14 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Vanity Finish",
       "description": "",
       "brand": "",
       "sku": "",
@@ -434,6 +482,14 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Schluter",
       "description": "Chrome",
       "brand": "",
@@ -501,6 +557,14 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Vanity Finish",
       "description": "",
       "brand": "",
       "sku": "",
@@ -582,6 +646,14 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
+      "name": "Vanity Finish",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Schluter",
       "description": "Brushed Nickel",
       "brand": "",
@@ -625,6 +697,14 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Faucet",
+      "description": "",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
+      "name": "Vanity Finish",
       "description": "",
       "brand": "",
       "sku": "",
