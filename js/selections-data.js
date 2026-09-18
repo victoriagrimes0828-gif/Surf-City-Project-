@@ -479,7 +479,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-6/light-fixture.jpg"
     },
     {
       "name": "Grout Color",
