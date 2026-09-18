@@ -44,6 +44,14 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/powder-room-1/vanity-finish.jpg"
+    },
+    {
+      "name": "Vanity Light",
+      "description": "Sylvie 3 Light Vanity Light",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/powder-room-1/vanity-light.jpg"
     }
   ],
   "powder-room-2": [
@@ -94,14 +102,6 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/powder-room-2/pendants.jpg"
-    },
-    {
-      "name": "Vanity Light",
-      "description": "Sylvie 3 Light Vanity Light",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": "images/selections/powder-room-2/vanity-light.jpg"
     }
   ],
   "bathroom-2": [
