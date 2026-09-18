@@ -713,11 +713,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Electrical Fixture",
-      "description": "",
+      "description": "Hinkley Helene",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-7/electrical-fixture.jpg"
     },
     {
       "name": "Faucet",
