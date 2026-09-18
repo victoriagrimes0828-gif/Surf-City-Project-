@@ -39,11 +39,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Light oak wood stain",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/powder-room-1/vanity-finish.jpg"
     }
   ],
   "powder-room-2": [
@@ -241,7 +241,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-3/vanity-finish.jpg"
     },
     {
       "name": "Schluter",
@@ -319,11 +319,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Classic Grey on Walnut",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-4/vanity-finish.jpg"
     },
     {
       "name": "Schluter",
