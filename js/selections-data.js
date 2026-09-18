@@ -94,6 +94,14 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": "images/selections/powder-room-2/pendants.jpg"
+    },
+    {
+      "name": "Vanity Light",
+      "description": "Sylvie 3 Light Vanity Light",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
     }
   ],
   "bathroom-2": [
