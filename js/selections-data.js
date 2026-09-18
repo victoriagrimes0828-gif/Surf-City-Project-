@@ -302,6 +302,14 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-4/light-fixture.jpg"
     },
     {
+      "name": "Sconces",
+      "description": "Qty 2 \u2014 Bolivar Sconce",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Grout Color",
       "description": "",
       "brand": "",
