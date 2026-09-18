@@ -4,6 +4,16 @@
 // Sourced from Ziman_SurfCity_ALL_Tile_Specs4.pdf (tile specs) plus items
 // provided directly by the client (e.g. faucets).
 var SELECTIONS_DATA = {
+  "foyer": [
+    {
+      "name": "Chandelier",
+      "description": "Veiller Chandelier",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/foyer/chandelier.jpg"
+    }
+  ],
   "powder-room-1": [
     {
       "name": "Floor Tile",
@@ -131,11 +141,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Chandelier",
-      "description": "",
+      "description": "Ezra Chandelier",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-2/chandelier.jpg"
     },
     {
       "name": "Grout Color",
@@ -692,6 +702,16 @@ var SELECTIONS_DATA = {
       "sku": "",
       "price": "",
       "image": ""
+    }
+  ],
+  "master-bedroom": [
+    {
+      "name": "Hanging Pendants",
+      "description": "Scalloped Hanging Pendant",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/master-bedroom/hanging-pendants.jpg"
     }
   ],
   "bathroom-7": [
