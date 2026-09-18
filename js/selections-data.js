@@ -728,6 +728,14 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
+      "name": "Countertop",
+      "description": "Calcutta Reale Quartz",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": ""
+    },
+    {
       "name": "Vanity Finish",
       "description": "White Oak (Light)",
       "brand": "",
