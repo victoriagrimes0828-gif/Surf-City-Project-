@@ -581,11 +581,11 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "Smokey Taupe",
+      "description": "Smokey Taupe 983",
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-8/vanity-finish.jpg"
     },
     {
       "name": "Schluter",
@@ -663,7 +663,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Walnut",
       "brand": "",
       "sku": "",
       "price": "",
