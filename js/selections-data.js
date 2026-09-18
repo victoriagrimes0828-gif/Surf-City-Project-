@@ -130,6 +130,14 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
+      "name": "Sconces",
+      "description": "Qty 2 \u2014 Bolivar Sconce",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/bathroom-2/sconces.jpg"
+    },
+    {
       "name": "Grout Color",
       "description": "TEC \u2014 Birch",
       "brand": "",
@@ -302,14 +310,6 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-4/light-fixture.jpg"
     },
     {
-      "name": "Sconces",
-      "description": "Qty 2 \u2014 Bolivar Sconce",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": "images/selections/bathroom-4/sconces.jpg"
-    },
-    {
       "name": "Grout Color",
       "description": "",
       "brand": "",
@@ -351,7 +351,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Schluter",
-      "description": "",
+      "description": "Brass",
       "brand": "",
       "sku": "",
       "price": "",
