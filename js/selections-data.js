@@ -721,7 +721,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "White Oak (Light)",
       "brand": "",
       "sku": "",
       "price": "",
