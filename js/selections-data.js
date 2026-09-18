@@ -495,7 +495,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/bathroom-6/faucet.jpg"
     },
     {
       "name": "Vanity Finish",
