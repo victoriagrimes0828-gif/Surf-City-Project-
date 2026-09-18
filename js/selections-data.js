@@ -295,7 +295,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Light Fixture",
-      "description": "",
+      "description": "Hermann Wall Sconces",
       "brand": "",
       "sku": "",
       "price": "",
