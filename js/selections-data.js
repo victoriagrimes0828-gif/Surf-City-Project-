@@ -400,6 +400,14 @@ var SELECTIONS_DATA = {
       "image": ""
     },
     {
+      "name": "Sink",
+      "description": "Finish: TBD",
+      "brand": "",
+      "sku": "",
+      "price": "",
+      "image": "images/selections/bathroom-5/sink.jpg"
+    },
+    {
       "name": "Vanity Finish",
       "description": "",
       "brand": "",
@@ -483,7 +491,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Brittania Blue 1623",
       "brand": "",
       "sku": "",
       "price": "",
