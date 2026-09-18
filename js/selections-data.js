@@ -549,7 +549,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Light Fixture",
-      "description": "",
+      "description": "Bowie Black & Brass 3 Light",
       "brand": "",
       "sku": "",
       "price": "",
