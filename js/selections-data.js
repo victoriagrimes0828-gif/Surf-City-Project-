@@ -222,14 +222,6 @@ var SELECTIONS_DATA = {
       "image": "images/selections/bathroom-3/wall-tile.jpg"
     },
     {
-      "name": "Light Fixture",
-      "description": "",
-      "brand": "",
-      "sku": "",
-      "price": "",
-      "image": ""
-    },
-    {
       "name": "Grout Color",
       "description": "Walls: TEC \u2014 Pearl \u00b7 Floor: TEC \u2014 Bright White",
       "brand": "",
