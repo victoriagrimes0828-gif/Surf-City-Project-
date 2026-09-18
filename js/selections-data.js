@@ -93,7 +93,7 @@ var SELECTIONS_DATA = {
       "brand": "",
       "sku": "",
       "price": "",
-      "image": ""
+      "image": "images/selections/powder-room-2/pendants.jpg"
     }
   ],
   "bathroom-2": [
