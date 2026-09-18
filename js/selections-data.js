@@ -581,7 +581,7 @@ var SELECTIONS_DATA = {
     },
     {
       "name": "Vanity Finish",
-      "description": "",
+      "description": "Smokey Taupe",
       "brand": "",
       "sku": "",
       "price": "",
